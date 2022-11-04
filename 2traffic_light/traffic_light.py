@@ -1,4 +1,5 @@
 from microbit import *
+
 while True:
     pin0.write_digital(1) #첫 시작은 빨간불(0번핀 빨간 불 켜기)
     sleep(5000) #5초 대기
